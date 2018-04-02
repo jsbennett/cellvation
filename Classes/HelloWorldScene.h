@@ -4,6 +4,7 @@
 #include "cocos2d.h"
 #include "GameObject.hpp"
 #include "GameCharacterObject.hpp"
+#include "GamePickupObject.hpp"
 class HelloWorld : public cocos2d::Scene
 {
 public:
@@ -14,6 +15,7 @@ public:
     //GameObject* gameObject;
     GameCharacterObject* gameCharacterObject;
     
+    GamePickupObject* gamePickup;
     // a selector callback
     void menuCloseCallback(cocos2d::Ref* pSender);
     void update(float delta); 

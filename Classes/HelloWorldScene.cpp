@@ -33,6 +33,10 @@ bool HelloWorld::init()
     // add "HelloWorld" splash screen"
     //gameObject = new GameObject("HelloWorld.png", this, startP);
     gameCharacterObject = new GameCharacterObject(100,100,"HelloWorld.png", this, startP);
+    
+    cocos2d::Vec2 startPic = cocos2d::Vec2(300,200);
+    gamePickup = new GamePickupObject(100, "HelloWorld.png", this, startPic);
+    
     this->scheduleUpdate();
     return true;
 }

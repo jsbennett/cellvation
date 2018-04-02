@@ -65,6 +65,7 @@
 		A1BF3AB3206E82140076B7F2 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB0206E82140076B7F2 /* GameObject.cpp */; };
 		A1BF3ABE207267270076B7F2 /* GameCharacterObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */; };
 		A1BF3ABF207267270076B7F2 /* GameCharacterObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */; };
+		A1BF3AC7207285960076B7F2 /* GamePickupObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AC5207285960076B7F2 /* GamePickupObject.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -171,6 +172,8 @@
 		A1BF3AB1206E82140076B7F2 /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
 		A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameCharacterObject.cpp; sourceTree = "<group>"; };
 		A1BF3ABD207267270076B7F2 /* GameCharacterObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameCharacterObject.hpp; sourceTree = "<group>"; };
+		A1BF3AC5207285960076B7F2 /* GamePickupObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GamePickupObject.cpp; sourceTree = "<group>"; };
+		A1BF3AC6207285960076B7F2 /* GamePickupObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GamePickupObject.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -237,8 +240,7 @@
 				503AE0FE17EB989F00D1A890 /* RootViewController.h */,
 				503AE0FF17EB989F00D1A890 /* RootViewController.mm */,
 			);
-			name = ios;
-			path = Classes;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
@@ -389,6 +391,8 @@
 				A1BF3AB1206E82140076B7F2 /* GameObject.hpp */,
 				A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */,
 				A1BF3ABD207267270076B7F2 /* GameCharacterObject.hpp */,
+				A1BF3AC5207285960076B7F2 /* GamePickupObject.cpp */,
+				A1BF3AC6207285960076B7F2 /* GamePickupObject.hpp */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -543,6 +547,7 @@
 			files = (
 				A1BF3ABE207267270076B7F2 /* GameCharacterObject.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A1BF3AC7207285960076B7F2 /* GamePickupObject.cpp in Sources */,
 				A1BF3AB2206E82140076B7F2 /* GameObject.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
