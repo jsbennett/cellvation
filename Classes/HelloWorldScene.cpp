@@ -31,14 +31,15 @@ bool HelloWorld::init()
 
     cocos2d::Vec2 startP = cocos2d::Vec2(200,200);
     // add "HelloWorld" splash screen"
-    gameObject = new GameObject("HelloWorld.png", this, startP);
-    
+    //gameObject = new GameObject("HelloWorld.png", this, startP);
+    gameCharacterObject = new GameCharacterObject(100,100,"HelloWorld.png", this, startP);
     this->scheduleUpdate();
     return true;
 }
 
 void HelloWorld::update(float delta){
-    gameObject->update(delta);
+    //gameObject->update(delta);
+    gameCharacterObject->update(delta);
 }
 
 

@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "../Classes/Entities/GameObject.cpp"
-            timestampString = "544304611.115451"
+            timestampString = "544372782.4802099"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "GameObject::update(float delta)"
             landmarkType = "7">
          </BreakpointContent>

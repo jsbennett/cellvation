@@ -61,16 +61,10 @@
 		521A8EAA19F11F5000D177D7 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 521A8EA819F11F5000D177D7 /* fonts */; };
 		52B47A471A53D09C004E4C60 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B47A461A53D09B004E4C60 /* Security.framework */; };
 		8262943E1AAF051F00CB7CF7 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8262943D1AAF051F00CB7CF7 /* Security.framework */; };
-		A1BF3AA1206E818C0076B7F2 /* Scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3A9F206E818C0076B7F2 /* Scale.cpp */; };
-		A1BF3AA2206E818C0076B7F2 /* Scale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3A9F206E818C0076B7F2 /* Scale.cpp */; };
-		A1BF3AA5206E81B50076B7F2 /* Rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AA3206E81B50076B7F2 /* Rotation.cpp */; };
-		A1BF3AA6206E81B50076B7F2 /* Rotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AA3206E81B50076B7F2 /* Rotation.cpp */; };
 		A1BF3AB2206E82140076B7F2 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB0206E82140076B7F2 /* GameObject.cpp */; };
 		A1BF3AB3206E82140076B7F2 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB0206E82140076B7F2 /* GameObject.cpp */; };
-		A1BF3AB6206E824C0076B7F2 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB4206E824C0076B7F2 /* Sprite.cpp */; };
-		A1BF3AB7206E824C0076B7F2 /* Sprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB4206E824C0076B7F2 /* Sprite.cpp */; };
-		A1BF3ABA206E825E0076B7F2 /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB8206E825E0076B7F2 /* Position.cpp */; };
-		A1BF3ABB206E825E0076B7F2 /* Position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3AB8206E825E0076B7F2 /* Position.cpp */; };
+		A1BF3ABE207267270076B7F2 /* GameCharacterObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */; };
+		A1BF3ABF207267270076B7F2 /* GameCharacterObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -173,16 +167,10 @@
 		521A8EA819F11F5000D177D7 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		52B47A461A53D09B004E4C60 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		8262943D1AAF051F00CB7CF7 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
-		A1BF3A9F206E818C0076B7F2 /* Scale.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Scale.cpp; sourceTree = "<group>"; };
-		A1BF3AA0206E818C0076B7F2 /* Scale.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Scale.hpp; sourceTree = "<group>"; };
-		A1BF3AA3206E81B50076B7F2 /* Rotation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Rotation.cpp; sourceTree = "<group>"; };
-		A1BF3AA4206E81B50076B7F2 /* Rotation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Rotation.hpp; sourceTree = "<group>"; };
 		A1BF3AB0206E82140076B7F2 /* GameObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameObject.cpp; sourceTree = "<group>"; };
 		A1BF3AB1206E82140076B7F2 /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
-		A1BF3AB4206E824C0076B7F2 /* Sprite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Sprite.cpp; sourceTree = "<group>"; };
-		A1BF3AB5206E824C0076B7F2 /* Sprite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Sprite.hpp; sourceTree = "<group>"; };
-		A1BF3AB8206E825E0076B7F2 /* Position.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Position.cpp; sourceTree = "<group>"; };
-		A1BF3AB9206E825E0076B7F2 /* Position.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Position.hpp; sourceTree = "<group>"; };
+		A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GameCharacterObject.cpp; sourceTree = "<group>"; };
+		A1BF3ABD207267270076B7F2 /* GameCharacterObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameCharacterObject.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -390,14 +378,6 @@
 		A1BF3A9C206E80DF0076B7F2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				A1BF3A9F206E818C0076B7F2 /* Scale.cpp */,
-				A1BF3AA0206E818C0076B7F2 /* Scale.hpp */,
-				A1BF3AA3206E81B50076B7F2 /* Rotation.cpp */,
-				A1BF3AA4206E81B50076B7F2 /* Rotation.hpp */,
-				A1BF3AB4206E824C0076B7F2 /* Sprite.cpp */,
-				A1BF3AB5206E824C0076B7F2 /* Sprite.hpp */,
-				A1BF3AB8206E825E0076B7F2 /* Position.cpp */,
-				A1BF3AB9206E825E0076B7F2 /* Position.hpp */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -407,6 +387,8 @@
 			children = (
 				A1BF3AB0206E82140076B7F2 /* GameObject.cpp */,
 				A1BF3AB1206E82140076B7F2 /* GameObject.hpp */,
+				A1BF3ABC207267270076B7F2 /* GameCharacterObject.cpp */,
+				A1BF3ABD207267270076B7F2 /* GameCharacterObject.hpp */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -559,13 +541,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1BF3AA1206E818C0076B7F2 /* Scale.cpp in Sources */,
-				A1BF3ABA206E825E0076B7F2 /* Position.cpp in Sources */,
+				A1BF3ABE207267270076B7F2 /* GameCharacterObject.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
-				A1BF3AA5206E81B50076B7F2 /* Rotation.cpp in Sources */,
 				A1BF3AB2206E82140076B7F2 /* GameObject.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
-				A1BF3AB6206E824C0076B7F2 /* Sprite.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -578,12 +557,9 @@
 			files = (
 				A1BF3AB3206E82140076B7F2 /* GameObject.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A1BF3ABF207267270076B7F2 /* GameCharacterObject.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
-				A1BF3ABB206E825E0076B7F2 /* Position.cpp in Sources */,
-				A1BF3AA2206E818C0076B7F2 /* Scale.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
-				A1BF3AA6206E81B50076B7F2 /* Rotation.cpp in Sources */,
-				A1BF3AB7206E824C0076B7F2 /* Sprite.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
