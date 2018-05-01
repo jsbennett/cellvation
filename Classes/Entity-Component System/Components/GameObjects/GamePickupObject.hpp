@@ -24,3 +24,4 @@ public:
     void setValue(int value);
 };
 #endif /* GamePickupObject_hpp */
+

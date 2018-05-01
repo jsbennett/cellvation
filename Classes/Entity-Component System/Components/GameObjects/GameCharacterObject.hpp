@@ -28,3 +28,4 @@ public:
     void setHealth(int healthValue);
 };
 #endif /* GameCharacterObject_hpp */
+

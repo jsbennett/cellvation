@@ -17,7 +17,7 @@ class GameObject
 {
 private:
     int id; //an ID to reference the entity
-
+    
 public:
     GameObject(string spriteFile, cocos2d::Scene* scene, cocos2d::Vec2 p); //create the game object and
     cocos2d::Sprite* sprite; //Each entity has a sprite
@@ -31,3 +31,5 @@ public:
     void update(float delta);
 };
 #endif /* GameObject_hpp */
+
+

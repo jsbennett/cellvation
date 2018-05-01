@@ -23,8 +23,9 @@ GameObject::GameObject(string spriteFile, cocos2d::Scene* scene,cocos2d::Vec2 p)
 //update method used as the basic implementation of an update loop for each object
 void GameObject::update(float delta)
 {
-    //this is just some sample code making the sprite move down  
+    //this is just some sample code making the sprite move down
     position.y--;
     sprite->setPosition(position.x, position.y);
     cout << position.y << endl;
 }
+

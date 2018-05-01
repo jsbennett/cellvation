@@ -20,3 +20,4 @@ void GamePickupObject::setValue(int inputValue)
 {
     this->value = inputValue;
 }
+

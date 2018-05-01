@@ -37,3 +37,4 @@ void GameCharacterObject::setHealth(int healthValue)
 {
     this->health = healthValue;
 }
+
