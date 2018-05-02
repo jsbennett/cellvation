@@ -1,6 +1,6 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
-#include "GameObject.hpp"
+#include "Player.hpp"
 
 USING_NS_CC;
 
@@ -32,18 +32,22 @@ bool HelloWorld::init()
     cocos2d::Vec2 startP = cocos2d::Vec2(200,200);
     // add "HelloWorld" splash screen"
     //gameObject = new GameObject("HelloWorld.png", this, startP);
-    gameCharacterObject = new GameCharacterObject(100,100,"HelloWorld.png", this, startP);
+    player = new Player(100,100,"HelloWorld.png", this, startP);
     
     cocos2d::Vec2 startPic = cocos2d::Vec2(300,200);
     gamePickup = new GamePickupObject(100, "HelloWorld.png", this, startPic);
+    
+    
     
     this->scheduleUpdate();
     return true;
 }
 
 void HelloWorld::update(float delta){
+    
     //gameObject->update(delta);
-    gameCharacterObject->update(delta);
+    //player->update(delta);*/
+    player->update("Left", delta);
 }
 
 

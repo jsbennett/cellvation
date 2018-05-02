@@ -6,6 +6,7 @@
 //
 
 #include "GameCharacterObject.hpp"
+#include "StateMachine.hpp"
 
 //the game character object constructor has to take in values for the parent constrcutor (game object) and has to define them.
 GameCharacterObject::GameCharacterObject(int healthValue, int speedValue, string spriteFile, cocos2d::Scene* scene, cocos2d::Vec2 p) : GameObject(spriteFile,scene,p)

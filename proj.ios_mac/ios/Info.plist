@@ -66,6 +66,8 @@
 	<array/>
 	<key>UIPrerenderedIcon</key>
 	<true/>
+	<key>UIRequiresFullScreen</key>
+	<false/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationLandscapeRight</string>

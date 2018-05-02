@@ -10,7 +10,7 @@
 using namespace std;
 
 //The constructor which sets up the starting point for the game object
-GameObject::GameObject(string spriteFile, cocos2d::Scene* scene,cocos2d::Vec2 p)
+GameObject::GameObject(string spriteFile, cocos2d::Scene* scene, cocos2d::Vec2 p)
 {
     sprite = cocos2d::Sprite::create(spriteFile); //create the new sprite
     //position = new cocos2d::Vec2(200,200);
@@ -24,8 +24,8 @@ GameObject::GameObject(string spriteFile, cocos2d::Scene* scene,cocos2d::Vec2 p)
 void GameObject::update(float delta)
 {
     //this is just some sample code making the sprite move down
-    position.y--;
+    /*position.y--;
     sprite->setPosition(position.x, position.y);
-    cout << position.y << endl;
+    cout << position.y << endl;*/
 }
 

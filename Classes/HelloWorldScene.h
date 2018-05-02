@@ -2,8 +2,9 @@
 #define __HELLOWORLD_SCENE_H__
 
 #include "cocos2d.h"
-#include "GameObject.hpp"
-#include "GameCharacterObject.hpp"
+//#include "GameObject.hpp"
+//#include "GameCharacterObject.hpp"
+#include "Player.hpp"
 #include "GamePickupObject.hpp"
 class HelloWorld : public cocos2d::Scene
 {
@@ -13,7 +14,8 @@ public:
     virtual bool init();
     
     //GameObject* gameObject;
-    GameCharacterObject* gameCharacterObject;
+    //GameCharacterObject* gameCharacterObject;
+    Player* player;
     
     GamePickupObject* gamePickup;
     // a selector callback
