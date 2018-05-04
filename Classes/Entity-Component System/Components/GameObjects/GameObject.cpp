@@ -9,6 +9,11 @@
 #include <iostream>
 using namespace std;
 
+GameObject::GameObject()
+{
+    
+}
+
 //The constructor which sets up the starting point for the game object
 GameObject::GameObject(string spriteFile, cocos2d::Scene* scene, cocos2d::Vec2 p)
 {

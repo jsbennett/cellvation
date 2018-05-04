@@ -69,12 +69,18 @@
 		A10805D42098F9EC00544B08 /* GameObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805D12098F9EC00544B08 /* GameObject.cpp */; };
 		A10805D72098FB0200544B08 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805D52098FB0200544B08 /* Player.cpp */; };
 		A10805D82098FB0200544B08 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805D52098FB0200544B08 /* Player.cpp */; };
-		A10805DE2099AF9800544B08 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805DC2099AF9800544B08 /* StateMachine.cpp */; };
-		A10805DF2099AF9800544B08 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805DC2099AF9800544B08 /* StateMachine.cpp */; };
-		A10805E32099CFF500544B08 /* IState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805E12099CFF500544B08 /* IState.cpp */; };
-		A10805E42099CFF500544B08 /* IState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A10805E12099CFF500544B08 /* IState.cpp */; };
-		A1A0E105209A011000E810A2 /* LeftMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E103209A011000E810A2 /* LeftMoveState.cpp */; };
-		A1A0E106209A011100E810A2 /* LeftMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E103209A011000E810A2 /* LeftMoveState.cpp */; };
+		A17A0A73209BACA50048772B /* IState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A71209BACA50048772B /* IState.cpp */; };
+		A17A0A74209BACA50048772B /* IState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A71209BACA50048772B /* IState.cpp */; };
+		A17A0A77209BAFFB0048772B /* ICharacterState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A75209BAFFB0048772B /* ICharacterState.cpp */; };
+		A17A0A78209BAFFB0048772B /* ICharacterState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A75209BAFFB0048772B /* ICharacterState.cpp */; };
+		A17A0A87209C75110048772B /* Level0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A85209C75110048772B /* Level0.cpp */; };
+		A17A0A88209C75110048772B /* Level0.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A85209C75110048772B /* Level0.cpp */; };
+		A17A0A8B209CAA450048772B /* LeftMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A89209CAA450048772B /* LeftMoveState.cpp */; };
+		A17A0A8C209CAA450048772B /* LeftMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A89209CAA450048772B /* LeftMoveState.cpp */; };
+		A17A0A8F209CC5C60048772B /* RightMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A8D209CC5C60048772B /* RightMoveState.cpp */; };
+		A17A0A90209CC5C60048772B /* RightMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A8D209CC5C60048772B /* RightMoveState.cpp */; };
+		A1A0E122209B909400E810A2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E120209B909400E810A2 /* StateMachine.cpp */; };
+		A1A0E123209B909400E810A2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E120209B909400E810A2 /* StateMachine.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -185,12 +191,18 @@
 		A10805D22098F9EC00544B08 /* GameObject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GameObject.hpp; sourceTree = "<group>"; };
 		A10805D52098FB0200544B08 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
 		A10805D62098FB0200544B08 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
-		A10805DC2099AF9800544B08 /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
-		A10805DD2099AF9800544B08 /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
-		A10805E12099CFF500544B08 /* IState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IState.cpp; sourceTree = "<group>"; };
-		A10805E22099CFF500544B08 /* IState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IState.hpp; sourceTree = "<group>"; };
-		A1A0E103209A011000E810A2 /* LeftMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeftMoveState.cpp; sourceTree = "<group>"; };
-		A1A0E104209A011000E810A2 /* LeftMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeftMoveState.hpp; sourceTree = "<group>"; };
+		A17A0A71209BACA50048772B /* IState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = IState.cpp; sourceTree = "<group>"; };
+		A17A0A72209BACA50048772B /* IState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = IState.hpp; sourceTree = "<group>"; };
+		A17A0A75209BAFFB0048772B /* ICharacterState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ICharacterState.cpp; sourceTree = "<group>"; };
+		A17A0A76209BAFFB0048772B /* ICharacterState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ICharacterState.hpp; sourceTree = "<group>"; };
+		A17A0A85209C75110048772B /* Level0.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Level0.cpp; sourceTree = "<group>"; };
+		A17A0A86209C75110048772B /* Level0.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Level0.hpp; sourceTree = "<group>"; };
+		A17A0A89209CAA450048772B /* LeftMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LeftMoveState.cpp; sourceTree = "<group>"; };
+		A17A0A8A209CAA450048772B /* LeftMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LeftMoveState.hpp; sourceTree = "<group>"; };
+		A17A0A8D209CC5C60048772B /* RightMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = RightMoveState.cpp; sourceTree = "<group>"; };
+		A17A0A8E209CC5C60048772B /* RightMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RightMoveState.hpp; sourceTree = "<group>"; };
+		A1A0E120209B909400E810A2 /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
+		A1A0E121209B909400E810A2 /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -427,43 +439,57 @@
 		A10805DB2099AF6400544B08 /* StateDesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				A10805E02099CFD500544B08 /* States */,
-				A10805DC2099AF9800544B08 /* StateMachine.cpp */,
-				A10805DD2099AF9800544B08 /* StateMachine.hpp */,
-				A10805E12099CFF500544B08 /* IState.cpp */,
-				A10805E22099CFF500544B08 /* IState.hpp */,
+				A17A0A6E209BAC6A0048772B /* States */,
+				A1A0E120209B909400E810A2 /* StateMachine.cpp */,
+				A1A0E121209B909400E810A2 /* StateMachine.hpp */,
 			);
 			path = StateDesignPattern;
 			sourceTree = "<group>";
 		};
-		A10805E02099CFD500544B08 /* States */ = {
+		A17A0A6E209BAC6A0048772B /* States */ = {
 			isa = PBXGroup;
 			children = (
-				A10805E62099D49300544B08 /* PickUpStates */,
-				A10805E52099D47900544B08 /* CharacterStates */,
+				A17A0A6F209BAC7E0048772B /* CharacterStates */,
 			);
 			path = States;
 			sourceTree = "<group>";
 		};
-		A10805E52099D47900544B08 /* CharacterStates */ = {
+		A17A0A6F209BAC7E0048772B /* CharacterStates */ = {
 			isa = PBXGroup;
 			children = (
-				A1A0E103209A011000E810A2 /* LeftMoveState.cpp */,
-				A1A0E104209A011000E810A2 /* LeftMoveState.hpp */,
+				A17A0A79209BBB870048772B /* MovementStates */,
+				A17A0A71209BACA50048772B /* IState.cpp */,
+				A17A0A72209BACA50048772B /* IState.hpp */,
+				A17A0A75209BAFFB0048772B /* ICharacterState.cpp */,
+				A17A0A76209BAFFB0048772B /* ICharacterState.hpp */,
 			);
 			path = CharacterStates;
 			sourceTree = "<group>";
 		};
-		A10805E62099D49300544B08 /* PickUpStates */ = {
+		A17A0A79209BBB870048772B /* MovementStates */ = {
 			isa = PBXGroup;
 			children = (
+				A17A0A89209CAA450048772B /* LeftMoveState.cpp */,
+				A17A0A8A209CAA450048772B /* LeftMoveState.hpp */,
+				A17A0A8D209CC5C60048772B /* RightMoveState.cpp */,
+				A17A0A8E209CC5C60048772B /* RightMoveState.hpp */,
 			);
-			path = PickUpStates;
+			path = MovementStates;
+			sourceTree = "<group>";
+		};
+		A17A0A84209C74FB0048772B /* Levels */ = {
+			isa = PBXGroup;
+			children = (
+				A17A0A85209C75110048772B /* Level0.cpp */,
+				A17A0A86209C75110048772B /* Level0.hpp */,
+			);
+			path = Levels;
 			sourceTree = "<group>";
 		};
 		A1BF3A9C206E80DF0076B7F2 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				A17A0A84209C74FB0048772B /* Levels */,
 				A10805DB2099AF6400544B08 /* StateDesignPattern */,
 				A10805C72098F90800544B08 /* GameObjects */,
 			);
@@ -619,14 +645,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				A10805CF2098F99700544B08 /* GamePickupObject.cpp in Sources */,
-				A1A0E105209A011000E810A2 /* LeftMoveState.cpp in Sources */,
-				A10805DE2099AF9800544B08 /* StateMachine.cpp in Sources */,
+				A1A0E122209B909400E810A2 /* StateMachine.cpp in Sources */,
+				A17A0A87209C75110048772B /* Level0.cpp in Sources */,
 				A10805CB2098F94E00544B08 /* GameCharacterObject.cpp in Sources */,
 				A10805D72098FB0200544B08 /* Player.cpp in Sources */,
+				A17A0A8B209CAA450048772B /* LeftMoveState.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A17A0A8F209CC5C60048772B /* RightMoveState.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
-				A10805E32099CFF500544B08 /* IState.cpp in Sources */,
+				A17A0A77209BAFFB0048772B /* ICharacterState.cpp in Sources */,
+				A17A0A73209BACA50048772B /* IState.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				A10805D32098F9EC00544B08 /* GameObject.cpp in Sources */,
@@ -638,15 +667,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				A17A0A90209CC5C60048772B /* RightMoveState.cpp in Sources */,
+				A17A0A8C209CAA450048772B /* LeftMoveState.cpp in Sources */,
 				A10805D82098FB0200544B08 /* Player.cpp in Sources */,
 				A10805CC2098F94E00544B08 /* GameCharacterObject.cpp in Sources */,
-				A1A0E106209A011100E810A2 /* LeftMoveState.cpp in Sources */,
 				A10805D42098F9EC00544B08 /* GameObject.cpp in Sources */,
-				A10805E42099CFF500544B08 /* IState.cpp in Sources */,
+				A17A0A74209BACA50048772B /* IState.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				A10805D02098F99700544B08 /* GamePickupObject.cpp in Sources */,
-				A10805DF2099AF9800544B08 /* StateMachine.cpp in Sources */,
+				A1A0E123209B909400E810A2 /* StateMachine.cpp in Sources */,
+				A17A0A88209C75110048772B /* Level0.cpp in Sources */,
+				A17A0A78209BAFFB0048772B /* ICharacterState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

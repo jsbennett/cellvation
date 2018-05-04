@@ -1,7 +1,7 @@
 #include "HelloWorldScene.h"
 #include "SimpleAudioEngine.h"
 #include "Player.hpp"
-
+#include <unistd.h>
 USING_NS_CC;
 
 Scene* HelloWorld::createScene()
@@ -47,7 +47,8 @@ void HelloWorld::update(float delta){
     
     //gameObject->update(delta);
     //player->update(delta);*/
-    player->update("Left", delta);
+    player->update(delta);
+    
 }
 
 

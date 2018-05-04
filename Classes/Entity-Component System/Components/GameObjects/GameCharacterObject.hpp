@@ -20,6 +20,7 @@ private:
     
 public:
     //constructor
+    GameCharacterObject(void);
     GameCharacterObject(int health, int speed, string spriteFile, cocos2d::Scene* scene, cocos2d::Vec2 p);
     //the getter and setters for the health and speed for the character
     int getSpeed();

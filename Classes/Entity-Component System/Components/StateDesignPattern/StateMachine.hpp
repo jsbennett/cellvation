@@ -2,8 +2,9 @@
 //  StateMachine.hpp
 //  cellvasion
 //
-//  Created by Jay Bennett on 02/05/2018.
-// Purpose: This is a template for a state machine. Its a template so I will be able to specify what type of state machine I want to create e.g. player state machine, or a enemy state machine
+//  Created by Jay Bennett on 03/05/2018.
+//
+// StateMachine: This is the state machine which holds all the states and controls the switching of states
 
 #ifndef StateMachine_hpp
 #define StateMachine_hpp
@@ -12,44 +13,51 @@
 #include <map>
 #include <string>
 #include "IState.hpp"
-#include <iostream> 
+
 using namespace std;
 
 class StateMachine
 {
 public:
-    //variables
-    map<string,IState*> states; //using a map to store all the states and its corresponding ID
-    IState* currentState; //used to store the current state
-    string currentStateID; //used to store the current state ID
+    IState* currentState; //holds the current state
+    string* currentStateID; //holds the current state id
     
-    StateMachine(IState* startState); //constructor to set the start state
-    void add(string id, IState* state); //used to add a state to the machine
-    void changeState(string id, cocos2d::Sprite* sprite, float delta); //used to change the current state in the machine
-    void setCurrentState(IState* state);
+    StateMachine(void); //default constructor
+    StateMachine(string startStateID, IState* startState); // constructor used to set up the state machine
     
+    void addState(string stateID, IState* stateToAdd); //method to add a state
+    void changeState(string stateID); //method to change a state
+
+private:
+    map<string,IState*> states; //a map data structure used to hold the state and its ID 
 };
 
-/*template<class T>
-void StateMachine<T>::add(string id, T state)
+/*
+template <class T>
+StateMachine<T>::StateMachine()
 {
-    states.insert(make_pair(id, state)); //add the state to the map
+    
+}
+
+template <class T>
+StateMachine<T>::StateMachine(T startState)
+{
+    currentState = startState;
+}
+template<class T>
+void StateMachine<T>::addState(string stateID, T stateToAdd)
+{
+    states.insert(pair<string,T>(stateID, stateToAdd));
 }
 
 template<class T>
-void StateMachine<T>::changeState(string id, cocos2d::Sprite* sprite, float delta)
+void StateMachine<T>::changeState(string stateID)
 {
-    T nextState = states[id]; //set the next state to be the state to be changed to
-    currentState = nextState; //set the current state to be the next state
-    currentStateID = id; //set the current state id to be the next state
-    currentState.update(sprite,delta);
-}
-
-
-template<class T>
-void StateMachine<T>::setCurrentState(T state)
-{
-    currentState = state;
+    currentState.exit();
+    T nextState = states[stateID];
+    nextState.enter();
+    currentState = nextState;
+    currentStateID = stateID;
 }*/
-#endif /* StateMachine_hpp */
 
+#endif /* StateMachine_hpp */
