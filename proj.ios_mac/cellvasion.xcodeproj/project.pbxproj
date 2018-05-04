@@ -81,6 +81,12 @@
 		A17A0A90209CC5C60048772B /* RightMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A17A0A8D209CC5C60048772B /* RightMoveState.cpp */; };
 		A1A0E122209B909400E810A2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E120209B909400E810A2 /* StateMachine.cpp */; };
 		A1A0E123209B909400E810A2 /* StateMachine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1A0E120209B909400E810A2 /* StateMachine.cpp */; };
+		A1D485ED209CF79D00BBD448 /* StandingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485EB209CF79D00BBD448 /* StandingMoveState.cpp */; };
+		A1D485EE209CF79D00BBD448 /* StandingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485EB209CF79D00BBD448 /* StandingMoveState.cpp */; };
+		A1D485F1209CFEF300BBD448 /* JumpingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485EF209CFEF300BBD448 /* JumpingMoveState.cpp */; };
+		A1D485F2209CFEF300BBD448 /* JumpingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485EF209CFEF300BBD448 /* JumpingMoveState.cpp */; };
+		A1D485F5209D0A0100BBD448 /* FallingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485F3209D0A0100BBD448 /* FallingMoveState.cpp */; };
+		A1D485F6209D0A0100BBD448 /* FallingMoveState.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A1D485F3209D0A0100BBD448 /* FallingMoveState.cpp */; };
 		BF171245129291EC00B8313A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB012928DE900B8313A /* OpenGLES.framework */; };
 		BF1712471292920000B8313A /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BF170DB412928DE900B8313A /* libz.dylib */; };
 		BF1C47F01293687400B63C5D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF1C47EA1293683800B63C5D /* QuartzCore.framework */; };
@@ -203,6 +209,12 @@
 		A17A0A8E209CC5C60048772B /* RightMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = RightMoveState.hpp; sourceTree = "<group>"; };
 		A1A0E120209B909400E810A2 /* StateMachine.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StateMachine.cpp; sourceTree = "<group>"; };
 		A1A0E121209B909400E810A2 /* StateMachine.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StateMachine.hpp; sourceTree = "<group>"; };
+		A1D485EB209CF79D00BBD448 /* StandingMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = StandingMoveState.cpp; sourceTree = "<group>"; };
+		A1D485EC209CF79D00BBD448 /* StandingMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = StandingMoveState.hpp; sourceTree = "<group>"; };
+		A1D485EF209CFEF300BBD448 /* JumpingMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JumpingMoveState.cpp; sourceTree = "<group>"; };
+		A1D485F0209CFEF300BBD448 /* JumpingMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = JumpingMoveState.hpp; sourceTree = "<group>"; };
+		A1D485F3209D0A0100BBD448 /* FallingMoveState.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = FallingMoveState.cpp; sourceTree = "<group>"; };
+		A1D485F4209D0A0100BBD448 /* FallingMoveState.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = FallingMoveState.hpp; sourceTree = "<group>"; };
 		BF170DB012928DE900B8313A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		BF170DB412928DE900B8313A /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		BF1C47EA1293683800B63C5D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -473,6 +485,12 @@
 				A17A0A8A209CAA450048772B /* LeftMoveState.hpp */,
 				A17A0A8D209CC5C60048772B /* RightMoveState.cpp */,
 				A17A0A8E209CC5C60048772B /* RightMoveState.hpp */,
+				A1D485EB209CF79D00BBD448 /* StandingMoveState.cpp */,
+				A1D485EC209CF79D00BBD448 /* StandingMoveState.hpp */,
+				A1D485EF209CFEF300BBD448 /* JumpingMoveState.cpp */,
+				A1D485F0209CFEF300BBD448 /* JumpingMoveState.hpp */,
+				A1D485F3209D0A0100BBD448 /* FallingMoveState.cpp */,
+				A1D485F4209D0A0100BBD448 /* FallingMoveState.hpp */,
 			);
 			path = MovementStates;
 			sourceTree = "<group>";
@@ -650,12 +668,15 @@
 				A10805CB2098F94E00544B08 /* GameCharacterObject.cpp in Sources */,
 				A10805D72098FB0200544B08 /* Player.cpp in Sources */,
 				A17A0A8B209CAA450048772B /* LeftMoveState.cpp in Sources */,
+				A1D485F1209CFEF300BBD448 /* JumpingMoveState.cpp in Sources */,
+				A1D485ED209CF79D00BBD448 /* StandingMoveState.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				A17A0A8F209CC5C60048772B /* RightMoveState.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
 				A17A0A77209BAFFB0048772B /* ICharacterState.cpp in Sources */,
 				A17A0A73209BACA50048772B /* IState.cpp in Sources */,
+				A1D485F5209D0A0100BBD448 /* FallingMoveState.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 				A10805D32098F9EC00544B08 /* GameObject.cpp in Sources */,
@@ -676,9 +697,12 @@
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				A10805D02098F99700544B08 /* GamePickupObject.cpp in Sources */,
+				A1D485F6209D0A0100BBD448 /* FallingMoveState.cpp in Sources */,
+				A1D485EE209CF79D00BBD448 /* StandingMoveState.cpp in Sources */,
 				A1A0E123209B909400E810A2 /* StateMachine.cpp in Sources */,
 				A17A0A88209C75110048772B /* Level0.cpp in Sources */,
 				A17A0A78209BAFFB0048772B /* ICharacterState.cpp in Sources */,
+				A1D485F2209CFEF300BBD448 /* JumpingMoveState.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

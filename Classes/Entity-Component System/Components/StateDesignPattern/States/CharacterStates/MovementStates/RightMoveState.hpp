@@ -10,7 +10,7 @@
 #define RightMoveState_hpp
 
 #include <stdio.h>
-#include <stdio.h>
+
 #include "ICharacterState.hpp"
 
 class RightMoveState : public ICharacterState {

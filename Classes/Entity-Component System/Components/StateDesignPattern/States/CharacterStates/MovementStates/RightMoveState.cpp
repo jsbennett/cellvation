@@ -34,5 +34,5 @@ void RightMoveState::update(float delta)
     position.y = position.y + 0; //do not move the y axis
     p->sprite->setPosition(position); //set the new position of the sprite
     
-    p->stateMachine->changeState("Left");
+    p->stateMachine->changeState("Standing");
 }
